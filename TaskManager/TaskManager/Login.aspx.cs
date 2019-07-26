@@ -15,28 +15,13 @@ namespace TaskManager
         {
             if (Membership.ValidateUser(Login1.UserName, Login1.Password) == true)
             {
+
                 Session["user"] = User.Identity.Name;
                 //FormsAuthentication.RedirectFromLoginPage(Login1.UserName, true);
                 FormsAuthentication.SetAuthCookie(Login1.UserName, true);
-                if (HttpContext.Current.User.IsInRole("Developer"))
-                {
-                    Response.Redirect("Developer/Developer.aspx");
-                }
-                else if (HttpContext.Current.User.IsInRole("ProjectManager"))
-                {
-                    Response.Redirect("ProjectManager/ProjectManager.aspx");
-                }
-                else if (HttpContext.Current.User.IsInRole("ProjectOwner"))
-                {
-                    Response.Redirect("ProjectOwner/ProjectOwner.aspx");
-                }
-                else if (HttpContext.Current.User.IsInRole("Admin"))
-                {
-                    Response.Redirect("Admin/Admin.aspx");
-                }
-                //else
 
-                //    Response.Redirect("Default.aspx");
+
+                Response.Redirect("Profile.aspx");
             }
             else
             {

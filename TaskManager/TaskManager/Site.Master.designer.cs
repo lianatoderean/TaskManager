@@ -22,13 +22,13 @@ namespace TaskManager {
         protected global::System.Web.UI.WebControls.Label UsernameLabel;
         
         /// <summary>
-        /// LogoutButton control.
+        /// LogoutBtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::Telerik.Web.UI.RadButton LogoutButton;
+        protected global::System.Web.UI.WebControls.LinkButton LogoutBtn;
         
         /// <summary>
         /// MainContent control.

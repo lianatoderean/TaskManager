@@ -190,10 +190,8 @@ D:\final\TaskManager\TaskManager\TaskManager\bin\System.Web.WebPages.xml
 D:\final\TaskManager\TaskManager\TaskManager\bin\System.Web.WebPages.Deployment.xml
 D:\final\TaskManager\TaskManager\TaskManager\bin\System.Web.WebPages.Razor.xml
 D:\final\TaskManager\TaskManager\TaskManager\bin\System.Web.Optimization.xml
-D:\final\TaskManager\TaskManager\TaskManager\bin\Telerik.Web.UI.xml
 D:\final\TaskManager\TaskManager\TaskManager\bin\Antlr3.Runtime.pdb
 D:\final\TaskManager\TaskManager\TaskManager\bin\Microsoft.AspNet.FriendlyUrls.xml
-D:\final\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.csprojAssemblyReference.cache
 D:\final\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.dll.licenses
 D:\final\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.CoreCompileInputs.cache
 D:\final\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.CopyComplete
