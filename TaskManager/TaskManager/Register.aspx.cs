@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Security;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using TaskManager.Model;
 
 namespace TaskManager
 {
@@ -24,7 +25,7 @@ namespace TaskManager
             CreateUserWizard1.Question, CreateUserWizard1.Answer, true, out p);
             Model.User user = new Model.User();
             user.username = CreateUserWizard1.UserName.ToString();
-
+            user.email = CreateUserWizard1.Email.ToString();
             _db.Users.Add(user);
             _db.SaveChanges();
         }
